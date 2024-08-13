@@ -1,0 +1,34 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    NPL   R-squared:                       0.524
+Model:                            OLS   Adj. R-squared:                  0.522
+Method:                 Least Squares   F-statistic:                     292.1
+Date:                Wed, 07 Aug 2024   Prob (F-statistic):               0.00
+Time:                        21:48:54   Log-Likelihood:                -6859.5
+No. Observations:                2135   AIC:                         1.374e+04
+Df Residuals:                    2126   BIC:                         1.379e+04
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                        21.6958      1.744     12.442      0.000      18.276      25.115
+GPR                           0.0444      0.016      2.843      0.005       0.014       0.075
+Ln_Total Assets EUR          -0.2154      0.074     -2.915      0.004      -0.360      -0.070
+Ln_Equity to Assets Ratio    -0.6356      0.273     -2.328      0.020      -1.171      -0.100
+Ln_Loan Ratio                -5.0013      0.207    -24.204      0.000      -5.407      -4.596
+Ln_LLP                        4.3539      0.129     33.688      0.000       4.100       4.607
+Ln_Deposit Ratio             -0.6251      0.080     -7.796      0.000      -0.782      -0.468
+GDP                           0.0208      0.040      0.514      0.607      -0.059       0.100
+INF                          -0.4733      0.124     -3.804      0.000      -0.717      -0.229
+==============================================================================
+Omnibus:                     2024.799   Durbin-Watson:                   0.780
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           156133.282
+Skew:                           4.269   Prob(JB):                         0.00
+Kurtosis:                      44.015   Cond. No.                     1.47e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.47e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
